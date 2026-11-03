@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="João Gabriel, estudante de Engenharia de Software. Pesquisa aplicada com LSTM, desenvolvimento Full Stack e backend.">
+  <meta name="theme-color" content="#183f35">
+  <title>João Gabriel — Engenharia de Software</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23183f35'/%3E%3Ctext x='12' y='43' font-family='sans-serif' font-size='31' font-weight='700' fill='%23faf8f2'%3EJG%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="João Gabriel, início"><span class="monogram">jg<span>·</span></span><span>João Gabriel<small>ENGENHARIA DE SOFTWARE</small></span></a>
+    <nav aria-label="Navegação principal"><a href="#projetos">Projetos</a><a href="#tecnologias">Tecnologias</a><a href="#sobre">Sobre</a></nav>
+    <a class="header-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="conteudo">
+    <section class="hero wrap" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> PORTFÓLIO PESSOAL <span class="eyebrow-line"></span> GOIÂNIA, BR</div>
+        <h1 id="hero-title">Da curiosidade<br>ao <em>código.</em></h1>
+        <p class="intro">Sou João Gabriel, estudante de Engenharia de Software. Construo aplicações e exploro dados para transformar perguntas em soluções que fazem sentido.</p>
+        <div class="hero-actions"><a class="button primary" href="#projetos">Explorar projetos <span aria-hidden="true">↘</span></a><a class="text-link" href="#sobre">Um pouco sobre mim <span aria-hidden="true">→</span></a></div>
+        <div class="hero-foot"><span class="dot" aria-hidden="true"></span> Portfólio de projetos <span class="separator">/</span> Projetos pessoais e acadêmicos</div>
+      </div>
+      <a class="research-art" href="#lstm" aria-label="Explorar pesquisa de precipitação com LSTM">
+        <div class="art-top"><span class="art-kicker">PESQUISA EM DESTAQUE</span><span class="crosshair" aria-hidden="true">+</span></div>
+        <div class="art-coordinate">16°40′ S &nbsp; 49°15′ O</div>
+        <svg class="contours" viewBox="0 0 520 420" fill="none" aria-hidden="true">
+          <g stroke="currentColor" stroke-width="1"><ellipse cx="270" cy="216" rx="68" ry="51" transform="rotate(-30 270 216)"/><ellipse cx="270" cy="216" rx="92" ry="70" transform="rotate(-30 270 216)"/><ellipse cx="270" cy="216" rx="116" ry="89" transform="rotate(-30 270 216)"/><ellipse cx="270" cy="216" rx="140" ry="108" transform="rotate(-30 270 216)"/><ellipse cx="270" cy="216" rx="164" ry="127" transform="rotate(-30 270 216)"/><ellipse cx="270" cy="216" rx="188" ry="146" transform="rotate(-30 270 216)"/><ellipse cx="270" cy="216" rx="212" ry="165" transform="rotate(-30 270 216)"/><ellipse cx="270" cy="216" rx="236" ry="184" transform="rotate(-30 270 216)"/><ellipse cx="270" cy="216" rx="260" ry="203" transform="rotate(-30 270 216)"/></g>
+          <path d="M30 216H495M270 15V404" stroke="currentColor" stroke-dasharray="3 7" opacity=".5"/>
+        </svg>
+        <span class="art-cloud" aria-hidden="true"><svg viewBox="0 0 70 60" fill="none"><path d="M17 35a11 11 0 0 1-1-22 17 17 0 0 1 33 0 11 11 0 1 1 4 22H17Z" stroke="currentColor" stroke-width="2"/><path d="m23 42-3 7m15-7-3 7m15-7-3 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <div class="art-title">LSTM<span>Aprender com o passado.<br>Investigar o próximo mês.</span></div>
+        <div class="art-bottom"><span>PRECIPITAÇÃO MENSAL<br><strong>Goiânia · Dados INMET</strong></span><span class="art-arrow" aria-hidden="true">↗</span></div>
+        <span class="art-tag">12 meses de entrada → 1 mês de previsão</span>
+      </a>
+    </section>
+    <div class="focus-strip wrap"><span>ÁREAS DE INTERESSE</span><p><b>01</b> Pesquisa aplicada</p><p><b>02</b> Desenvolvimento Full Stack</p><p><b>03</b> Engenharia de backend</p></div>
+
+    <section class="projects section wrap" id="projetos" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / PROJETOS SELECIONADOS</p><h2 id="projects-title">Construindo, testando.<br><em>Aprendendo no caminho.</em></h2></div><p class="section-aside">Uma pesquisa em evolução e dois próximos<br> passos no desenvolvimento de software.</p></div>
+      <div class="filters" role="group" aria-label="Filtrar projetos"><button class="filter active" data-filter="all" aria-pressed="true">Todos <span>03</span></button><button class="filter" data-filter="data" aria-pressed="false">Dados & IA <span>01</span></button><button class="filter" data-filter="fullstack" aria-pressed="false">Full Stack <span>01</span></button><button class="filter" data-filter="backend" aria-pressed="false">Backend <span>01</span></button></div>
+      <p id="filter-status" class="sr-only" role="status">3 projetos exibidos.</p>
+      <article class="featured project-item" data-category="data" id="lstm" aria-labelledby="lstm-title">
+        <div class="project-visual">
+          <div class="visual-head"><span class="pill light"><span class="dot"></span> PESQUISA ACADÊMICA</span><span>01 / 03</span></div>
+          <div class="visual-sub">DADOS REAIS. PERGUNTAS ABERTAS.</div>
+          <h3>O que os dados<br>contam sobre<br><em>a próxima chuva?</em></h3>
+          <div class="mini-comparison"><div class="comparison-label"><span>ERRO MÉDIO ABSOLUTO</span><span>MENOR É MELHOR ↓</span></div><div class="mini-row"><span>Climatologia</span><div><i style="width:67.72%"></i></div><b>60,84</b></div><div class="mini-row selected"><span>LSTM</span><div><i style="width:71.89%"></i></div><b>64,59</b></div><div class="mini-row"><span>Sazonal</span><div><i style="width:100%"></i></div><b>89,84</b></div><span class="chart-caption">MAE em mm · Teste cronológico de 19 meses</span></div>
+          <div class="visual-footer"><span>PYTHON / TENSORFLOW</span><span aria-hidden="true">↗</span></div>
+        </div>
+        <div class="project-detail">
+          <div class="project-topline"><span class="eyebrow">SÉRIES TEMPORAIS · INICIAÇÃO CIENTÍFICA</span><span class="status research">Em pesquisa</span></div>
+          <h3 id="lstm-title">Previsão de precipitação<br>com LSTM</h3>
+          <p class="project-intro">Uma investigação sobre a chuva em Goiânia — da qualidade dos registros meteorológicos à comparação honesta entre modelos.</p>
+          <div class="tabs" role="tablist" aria-label="Detalhes da pesquisa LSTM"><button role="tab" aria-selected="true" id="tab-overview" aria-controls="panel-overview" data-tab="overview">Visão geral</button><button role="tab" aria-selected="false" tabindex="-1" id="tab-method" aria-controls="panel-method" data-tab="method">Método</button><button role="tab" aria-selected="false" tabindex="-1" id="tab-results" aria-controls="panel-results" data-tab="results">Resultados</button></div>
+          <div class="tab-panel" id="panel-overview" role="tabpanel" aria-labelledby="tab-overview" tabindex="0"><p>O objetivo é prever a precipitação do mês seguinte a partir dos 12 meses anteriores, usando registros do INMET de 2001 a 2025.</p><div class="facts"><div><strong>12 meses</strong><span>janela de entrada</span></div><div><strong>7 variáveis</strong><span>clima e sazonalidade</span></div><div><strong>19 meses</strong><span>no teste principal</span></div></div><p class="subtle">O aprendizado central: um modelo mais complexo precisa ser comparado a boas referências.</p></div>
+          <div class="tab-panel" id="panel-method" role="tabpanel" aria-labelledby="tab-method" tabindex="0" hidden><p>Precipitação, temperatura, umidade, pressão e vento são agregados por mês. Seno e cosseno do mês representam a sazonalidade.</p><ol class="method-list"><li><b>Preparar</b><span>Preservar lacunas e filtrar cobertura horária inferior a 90%.</span></li><li><b>Treinar</b><span>LSTM de 64 e 32 unidades, Dropout e parada antecipada.</span></li><li><b>Avaliar</b><span>Divisão temporal 70/15/15; normalização ajustada só no treino.</span></li></ol><p class="subtle">O limite de cobertura é experimental; não é uma norma validada do INMET.</p></div>
+          <div class="tab-panel" id="panel-results" role="tabpanel" aria-labelledby="tab-results" tabindex="0" hidden><div class="results-header"><span id="metric-explainer">MAE · erro médio absoluto</span><div class="metric-toggle" role="group" aria-label="Métrica de avaliação"><button data-metric="mae" aria-pressed="true" class="active">MAE</button><button data-metric="rmse" aria-pressed="false">RMSE</button></div></div><table class="results-table"><caption class="sr-only">Resultados do teste cronológico principal, em milímetros</caption><thead><tr><th scope="col">Método</th><th scope="col">Erro (mm) ↓</th></tr></thead><tbody><tr><th scope="row">Climatologia mensal</th><td data-result="climate">60,84</td></tr><tr class="highlight"><th scope="row">LSTM · semente 42</th><td data-result="lstm">64,59</td></tr><tr><th scope="row">Referência sazonal</th><td data-result="seasonal">89,84</td></tr></tbody></table><p class="subtle">A LSTM superou a referência sazonal, mas a climatologia teve menor erro. São 19 meses de teste; o estudo não oferece previsão operacional.</p></div>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>TensorFlow / Keras</span><span>Scikit-learn</span></div>
+          <div class="project-links"><a class="text-link strong" href="https://github.com/Joao-Gabriel-G-Costa/previsao-precipitacao-lstm-goiania" target="_blank" rel="noopener noreferrer">Repositório acadêmico <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a><a class="text-link" href="https://github.com/Joao-Gabriel-G-Costa/previsao-precipitacao-lstm-goiania/blob/previsao-precipitacao-lstm-goiania/RELATORIO_TECNICO.md" target="_blank" rel="noopener noreferrer">Relatório técnico <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div>
+          <p class="availability">Documentação disponível · Sem demonstração online do modelo</p>
+        </div>
+      </article>
+
+      <div class="planned-grid">
+        <article class="planned-card project-item" data-category="fullstack" id="tarefas" aria-labelledby="tasks-title"><div class="planned-top"><span class="project-number">02 / FULL STACK</span><span class="status">Planejado</span></div><div class="planned-icon tasks-icon" aria-hidden="true"><span>✓</span><i></i><i></i></div><h3 id="tasks-title">Gerenciador de tarefas</h3><p>Da interface ao banco de dados: um espaço para organizar tarefas, prioridades e acompanhar o que precisa acontecer.</p><div class="tags"><span>React</span><span>TypeScript</span><span>Spring Boot</span><span>PostgreSQL</span></div><div class="card-bottom"><span>Stack prevista · Demo futura</span><button class="text-link strong" data-open="tasks">Explorar escopo <span aria-hidden="true">↗</span></button></div></article>
+        <article class="planned-card project-item" data-category="backend" id="estoque" aria-labelledby="stock-title"><div class="planned-top"><span class="project-number">03 / BACKEND</span><span class="status">Planejado</span></div><div class="planned-icon stock-icon" aria-hidden="true"><svg viewBox="0 0 54 54" fill="none"><path d="m27 7 19 10v21L27 48 8 38V17L27 7Z" stroke="currentColor" stroke-width="1.5"/><path d="m8 17 19 10 19-10M27 27v21M18 12l19 10" stroke="currentColor" stroke-width="1.5"/></svg></div><h3 id="stock-title">Sistema de estoque</h3><p>Um laboratório de backend para explorar movimentações, integridade dos dados e regras de negócio de um estoque.</p><div class="tags"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>API REST</span></div><div class="card-bottom"><span>Stack proposta · Demo futura</span><button class="text-link strong" data-open="stock">Explorar escopo <span aria-hidden="true">↗</span></button></div></article>
+      </div>
+      <div class="project-note"><span aria-hidden="true">↳</span><p>Os projetos planejados ainda não têm resultados ou demonstrações publicados. Cada etapa terá seu espaço por aqui.</p></div>
+    </section>
+
+    <section class="tech-section" id="tecnologias" aria-labelledby="tech-title"><div class="wrap tech-layout"><div><p class="eyebrow">02 / FERRAMENTAS & FUNDAMENTOS</p><h2 id="tech-title">A tecnologia segue<br><em>o problema.</em></h2><p class="section-copy">Interfaces claras, APIs bem estruturadas e dados confiáveis. Escolhas diferentes para cada parte do caminho.</p><div class="tech-switch" role="group" aria-label="Selecionar tecnologias"><button class="active" data-tech="practice" aria-pressed="true">Em prática</button><button data-tech="planned" aria-pressed="false">Próximos projetos</button></div></div><div class="tech-groups" id="tech-content" aria-live="polite"><div class="tech-row"><span class="tech-symbol" aria-hidden="true">{ }</span><div><h3>Aplicações</h3><p>React · TypeScript · Java · Quarkus</p><small>Interfaces, serviços e integração de sistemas</small></div></div><div class="tech-row"><span class="tech-symbol" aria-hidden="true">∿</span><div><h3>Dados & aprendizado de máquina</h3><p>Python · Pandas · NumPy · TensorFlow</p><small>Preparação, modelagem e avaliação de séries temporais</small></div></div><div class="tech-row"><span class="tech-symbol" aria-hidden="true">⌘</span><div><h3>Base de trabalho</h3><p>SQL · Git · APIs REST</p><small>Modelagem de dados, versionamento e comunicação</small></div></div></div></div></section>
+
+    <section class="about section wrap" id="sobre" aria-labelledby="about-title"><div class="about-mark" aria-hidden="true"><span>JG</span><small>EM CONSTANTE<br>CONSTRUÇÃO.</small><div class="mark-star">✳</div></div><div class="about-copy"><p class="eyebrow">03 / QUEM ESTÁ POR TRÁS</p><h2 id="about-title">Engenharia se aprende<br><em>fazendo boas perguntas.</em></h2><p>Sou João Gabriel Gonçalves Costa, estudante de Engenharia de Software no SENAI FATESG, em Goiânia. Meu interesse está na conexão entre uma boa interface, um backend consistente e o que os dados podem revelar.</p><p>Na pesquisa com LSTM, aprendi que avaliar uma ideia é tão importante quanto implementá-la. Nos próximos projetos, quero aprofundar essa mesma atenção às decisões de arquitetura e às regras de negócio.</p><div class="about-details"><span><b>Foco</b> Full Stack & Backend</span><span><b>Graduação</b> Previsão de conclusão em 2028</span></div></div></section>
+    <section class="contact-section" id="contato" aria-labelledby="contact-title"><div class="wrap contact-layout"><div><p class="eyebrow">04 / VAMOS CONVERSAR</p><h2 id="contact-title">Uma boa conversa pode ser<br><em>o próximo começo.</em></h2><p>Sobre software, pesquisa e oportunidades de construir algo útil.</p></div><div class="contact-actions"><a class="button cream" href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-gon%C3%A7alves-costa-29b908309" target="_blank" rel="noopener noreferrer">Conversar no LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a><a class="contact-github" href="https://github.com/Joao-Gabriel-G-Costa" target="_blank" rel="noopener noreferrer">Conhecer meu GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div></div></section>
+  </main>
+  <footer class="footer wrap"><p>João Gabriel <span>© 2026</span></p><span class="footer-private"><span class="dot"></span> Engenharia de Software · Portfólio pessoal</span><a href="#inicio">Voltar ao topo ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><span class="eyebrow" id="dialog-eyebrow"></span><button class="close-dialog" aria-label="Fechar detalhes do projeto">×</button></div><div id="dialog-content"></div><button class="button primary dialog-done">Voltar aos projetos <span aria-hidden="true">↙</span></button></dialog>
+  <noscript><div class="noscript">Ative o JavaScript para usar filtros e explorar todos os detalhes dos projetos. A apresentação e os links continuam disponíveis.</div></noscript>
+</body>
+</html>
