@@ -5,6 +5,9 @@ Meu portfólio de Engenharia de Software, com pesquisa aplicada em previsão de 
 ## Projetos
 
 - **Previsão de precipitação com LSTM:** pesquisa acadêmica com registros do INMET, metodologia e comparação dos resultados.
+- **NFC Caelline:** site profissional responsivo em React e TypeScript.
+- **HelpDesk:** backend Java/Spring Boot em desenvolvimento, com usuários e controle de acesso.
+- **GYNLOG:** projeto acadêmico em equipe para controle de gastos de frota em Java Swing.
 - **Gerenciador de tarefas:** projeto planejado com React, TypeScript, Java, Spring Boot e PostgreSQL.
 - **Sistema de estoque:** projeto planejado com foco em backend e regras de negócio.
 

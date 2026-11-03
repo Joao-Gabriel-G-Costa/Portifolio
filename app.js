@@ -104,9 +104,9 @@ dialog.addEventListener('close', () => { if (lastTrigger) lastTrigger.focus(); }
 
 const techContent = {
   practice: [
-    ['{ }', 'Aplicações', 'React · TypeScript · Java · Quarkus', 'Interfaces, serviços e integração de sistemas'],
+    ['{ }', 'Aplicações', 'React · TypeScript · Java · Quarkus · Spring Boot', 'Interfaces, serviços e integração de sistemas'],
     ['∿', 'Dados & aprendizado de máquina', 'Python · Pandas · NumPy · TensorFlow', 'Preparação, modelagem e avaliação de séries temporais'],
-    ['⌘', 'Base de trabalho', 'SQL · Git · APIs REST', 'Modelagem de dados, versionamento e comunicação']
+    ['⌘', 'Base de trabalho', 'SQL · PostgreSQL · Git · APIs REST', 'Modelagem de dados, versionamento e comunicação']
   ],
   planned: [
     ['{ }', 'Gerenciador de tarefas', 'React · TypeScript · Spring Boot', 'Stack prevista para integrar interface e backend'],
@@ -129,7 +129,7 @@ $$('[data-tech]').forEach(button => button.addEventListener('click', () => {
 }));
 
 function revealHashProject() {
-  if (['#lstm', '#tarefas', '#estoque'].includes(location.hash)) {
+  if (['#lstm', '#caelline', '#helpdesk', '#gynlog', '#tarefas', '#estoque'].includes(location.hash)) {
     filterProjects('all');
     requestAnimationFrame(() => $(location.hash)?.scrollIntoView({ block: 'start' }));
   }
